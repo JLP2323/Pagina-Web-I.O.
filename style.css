@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/transparente1.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu.navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu.navbar ul li a:hover {
+    color: #CE967B;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #8c847f;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #0000006e;
+}
+
+.fruits2 {
+    padding: 100px;
+    background-color: #e1e2e6;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(87, 8, 8, 0.363),
+        rgba(54, 53, 53, 0.06)),
+        url();
+        
+}
+
+.frutas-content h2 {
+    font-size: 80px;
+    line-height: 100px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 55 220px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 27px;
+    color: #1e1e20;
+    padding: 5 250px;
+    margin-bottom: 35px;
+}
+
+.fruits1-group {
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(
+        rgba(87, 8, 8, 0.363),
+        rgba(0, 0, 0, 0.7)),
+        url();
+    font-size: 15px;
+    gap: 3px;
+    text-align: justify;
+}
+
+.fruits4-group,
+.fruits5-group {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 10px;
+    transition: transform 0.3s ease;
+    
+    
+    
+    
+}
+
+.fruits2 img,
+.fruits4 img,
+.fruits5 img,
+.fruits6 img {
+    width: 800px;
+    transition: transform 0.3s ease; /* Transición para la animación de zoom */
+    max-width: 145%;
+    height: auto;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    
+}
+
+.fruits2 img:hover,
+.fruits4 img:hover,
+.fruits5 img:hover,
+.fruits6 img:hover {
+    transform: scale(1.05); /* Agranda la imagen ligeramente al pasar el cursor */
+    
+}
+
+.fruits5 {
+    padding: 100px;
+    background-color: #e1e2e6;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(87, 8, 8, 0.363),
+        rgba(54, 53, 53, 0.06)),
+        url();
+}
+
+.fruits6 {
+    padding: 100px;
+    background-color: #e1e2e6;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(87, 8, 8, 0.363),
+        rgba(54, 53, 53, 0.06)),
+        url();
+}
+
+nav a {
+    color: rgba(255, 252, 252, 0.963); /* Color del texto de los enlaces */
+    display: flex;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Esta propiedad centra los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.Servicios {
+    background-image: linear-gradient(
+        rgba(0, 0 ,0 ,0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(images/empaque\ de\ jugo\ de\ frutas.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.Servicios h2 {
+    color: #C5C5C5;
+}
+
+.Servicios p {
+    color: #C5C5C5;
+}
+
+.testimonios {
+    background-image: linear-gradient(
+        rgba(0, 0 ,0 ,0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(images/grupo\ de\ personas.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.testimonios h2 {
+    color: #C5C5C5;
+}
+
+.testimonio1,
+.testimonio2,
+.testimonio3 {
+    color: #C5C5C5;
+}
+
+@media (max-width: 768px) {
+    .fruits1-group, .fruits4-group, .fruits5-group {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Para dispositivos más pequeños */
+@media (max-width: 768px) {
+    .fruits4-group, .fruits5-group {
+        font-size: 14px; /* Ajusta el tamaño del texto en pantallas pequeñas */
+        padding: 10px;
+    }
+
+    .fruits4-group img, .fruits5-group img {
+        max-width: 100%;
+    }
+}
+
